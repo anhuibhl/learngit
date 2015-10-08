@@ -28,4 +28,14 @@ Item {
             text: qsTr("Press Me 3")
         }
     }
+
+    TextInput {
+        id: textInput1
+        x: 216
+        y: 165
+        width: 80
+        height: 20
+        text: qsTr("Text Input")
+        font.pixelSize: 12
+    }
 }
